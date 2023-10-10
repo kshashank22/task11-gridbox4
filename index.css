@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+}
+.bg-container{  
+    display:grid;
+    grid-template-columns:auto auto auto auto auto;
+    border:1px solid black;
+    font-family:"Arial";
+    color:white;
+    height:20vh;
+    background-size:cover;
+}
+.box-1{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    order:5;
+    background-color:rgb(227, 165, 59);
+}
+.box-2{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    order:3;
+    background-color:rgb(240, 92, 47);
+}
+.box-3{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    order:1;
+    background-color:rgb(182, 62, 41);
+}
+.box-4{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    order:4;
+    background-color:rgb(211, 208, 202);
+}
+.box-5{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    order:2;
+    background-color:rgb(138, 136, 132);
+}
